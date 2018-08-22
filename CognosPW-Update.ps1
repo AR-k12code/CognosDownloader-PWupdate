@@ -4,4 +4,4 @@
 $savelocation = 'C:\scripts\apscnpw.txt' #Location to export the file
 
 
-Read-Host "Enter Password" -AsSecureString |  ConvertFrom-SecureString | Out-File $savelocation
+Read-Host "Enter Password" -AsSecureString |  ConvertFrom-SecureString | Out-File $savelocation -force
